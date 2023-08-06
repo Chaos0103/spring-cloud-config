@@ -1,9 +1,13 @@
 spring:
   datasource:
-    driver-class-name: org.h2.Driver
-    url: jdbc:h2:mem:testdb
-    username: sa
-    password: '{cipher}AQB+TWpTE00eFSS+zivkEIHJfJhMt2Lj35pO/pVLdhslC3Ai7zw/H3QHu1xZocodIqC9fQ0Cam1v8zWAt1SS9Zc4in5/7JQq/wrj9u0nxbS7GSGkrVudhB42alodUnfD2pKzyqOwcMi4ACqji/gCBzrI+kLRHR4I2dlGKhUVCPzSwXQ+QhV6penvobm8FpfQQGNIVJwWPM9/JJ4YpNAPv60sSqY7VhQFd2WWA+lE5L/eM8n+GfXXVnySna2b+6+4CDCMdxCstHRE8S2UG3Aqlyn6sQeJl7n37yJwzQSmEtHTMFemN4n4ehqH6eSB754p+Eo/5Ek+vPbPCajbTuy1XJ3eTmSvG60VU+fQTgmE4k9eTDB8jRLlOK8BEEm9dIXQdkQ='
+    # driver-class-name: org.h2.Driver
+    # url: jdbc:h2:mem:testdb
+    # username: sa
+    # password: '{cipher}AQB+TWpTE00eFSS+zivkEIHJfJhMt2Lj35pO/pVLdhslC3Ai7zw/H3QHu1xZocodIqC9fQ0Cam1v8zWAt1SS9Zc4in5/7JQq/wrj9u0nxbS7GSGkrVudhB42alodUnfD2pKzyqOwcMi4ACqji/gCBzrI+kLRHR4I2dlGKhUVCPzSwXQ+QhV6penvobm8FpfQQGNIVJwWPM9/JJ4YpNAPv60sSqY7VhQFd2WWA+lE5L/eM8n+GfXXVnySna2b+6+4CDCMdxCstHRE8S2UG3Aqlyn6sQeJl7n37yJwzQSmEtHTMFemN4n4ehqH6eSB754p+Eo/5Ek+vPbPCajbTuy1XJ3eTmSvG60VU+fQTgmE4k9eTDB8jRLlOK8BEEm9dIXQdkQ='
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/kkoch_user?useSSL=false&characterEncoding=UTF-8&serverTimezone=UTC&allowPublicKeyRetrieval=true
+    username: ssafy
+    password: ssafyc204
     
 token:
   expiration_time: 86400000
