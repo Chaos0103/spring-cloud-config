@@ -3,4 +3,4 @@ token:
   secret: '{cipher}AQCAOhh1YzWAcWB7JHpYfpJj70tvWIn4hAA6QH3rPqvql4Y4oZq7ZPg2vtA1L+Dx5ik/TcxzYl4dteL6uzdVex4nyjMSP2Y39TtGZLUB7O7qA/ym96frKe+SFo5N+IWzTBDnoXNlHu8MPa/T5Y2rpzU5YGzQp6K+CytJnPe4cWTUzzrQCljDnqbmkJ+c3KgmclfFGkSlhjzDRjUgd79EZPnaMgIAR5m1jGjnTyuSxlARgSDGHGtWxOhk0HlOCqa3Yjim9Xl0IapALoN8/7ShxRVqYBzfp4BeuH70Q196s9pWcxI+4L06GOa/mfo8W6iJ8RgnBj0zDTXpQdfU+yh4M6d7IPldG0YxDNHd6xzsYijquqoXG2O4AExzdq47d4HO+U1Rx3uXbXqKIbl3kUAqSUxvg9OwUAcPyrGL5dbI3T+Mfsg1Sk2NifQvnmuCg/0tK3KOXZiDuI5L/sxXTJ0DQgh/'
 
 gateway:
-  ip: 172.0.0.1
+  ip: 172.18.0.3
