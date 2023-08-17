@@ -6,4 +6,4 @@ spring:
     password: ssafyc204
     
 gateway:
-  ip: 172.18.0.3
+  ip: 172.18.0.4
